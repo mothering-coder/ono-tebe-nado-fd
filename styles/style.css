@@ -229,7 +229,7 @@ button {
 .about {
   width: 1052px;
   min-height: 595px;
-  padding: 60px 24px 0 24px;
+  padding: 50px 24px 0 24px;
 }
 
 .about_content {
@@ -283,7 +283,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 180px 50px 82px 0px;
+    padding: 180px 50px 102px 0px;
     color: #333; 
     text-decoration-color: black;
     text-decoration-thickness: 1px;
