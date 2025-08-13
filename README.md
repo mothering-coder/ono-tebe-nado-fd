@@ -1,1 +1,1 @@
-https://github.com/mothering-coder/ono-tebe-nado-fd.
+https://github.com/mothering-coder/ono-tebe-nado-fd
