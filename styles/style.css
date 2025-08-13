@@ -69,15 +69,15 @@ span {
     display: block;
 }
 
-.line1 {
+.first_line {
     text-align: left;
 }
 
-.line2 {
+.second_line {
     text-align: center;
 }
 
-.line3 {
+.third_line {
     text-align: right;
 }
 
