@@ -6,29 +6,35 @@ header {
     padding-right: 50px;
     padding-top: 92px;
     padding-bottom: 96px;
+    text-decoration-color: black;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
 }
 
-.header_logo-image {
+.logo_image {
     width: 148px;
     height: 105px;
     align-items: center;
 }
 
-.header_link-list {
+.main_menu-link-list {
     display: flex;
     width: 100%;
     gap: 32px;
     font-size: 18px;
+    list-style-type: circle;
 }
 
-.header_adress {
+.main_adress {
     display: flex;
     flex-direction: column;
     gap: 5px;
     margin-left: 185px;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-size: 18px;
 }
 
-.header_link-list-item_no-bullit {
+.main_menu-link-list-item_no-bullit {
     list-style: none;
 }
 
@@ -48,6 +54,8 @@ header {
 .overlay {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
     inset: 0;
     z-index: 0;
 }
@@ -64,39 +72,46 @@ h1 {
     padding-top: 165px;
     padding-left: 50px;
     padding-right: 50px;
-    font-style: bold;
 }
 
 span {
-    display: block;
+    display: flex;
 }
 
 .first_line {
-    text-align: left;
+    position: relative;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 20px;
 }
 
 .second_line {
-    text-align: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
 }
 
 .third-line {
-    text-align: right;
+    position: relative;
+    justify-content: end;
+    align-items: end;
 }
 
 .description {
     display: flex;
+    position: relative;
     gap: 107px;
     color: white;
     font-family: 'Raleway', 'Arial', regular;
     text-transform: uppercase;
-    font-weight: 400px;
     line-height: 28px;
     letter-spacing: 2px;
     font-size: 22px;
     padding-bottom: 50px;
     padding-right: 50px;
     padding-left: 50px;
-    padding-top: 150px;
+    padding-top: 106px;
 }
 
 button {
@@ -104,7 +119,6 @@ button {
     font-family: 'Raleway', 'Arial', regular;
     font-size: 22px;
     text-transform: uppercase;
-    font-weight: 400px;
     background-color: transparent;
     color: white;
     border: 1px solid;
@@ -112,14 +126,14 @@ button {
     padding-bottom: 11px;
     padding-left: 31px;
     padding-right: 32px;
-    margin-top: -15px
+    margin-top: -15px;
 }
 
 .lots {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 180px 24px 120px;
+    padding: 180px 24px 0;
 }
 
 .lots_title {
@@ -151,7 +165,7 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .card {
@@ -215,22 +229,21 @@ button {
   color: #000;
   text-underline-offset: 4px;
   text-decoration: underline;
-  position: relative;
-  left: 40px;
+  padding-left: 40px;
   margin:  30px 0 64px;
 }
 
 .about {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 47px 0 24px ;
+  width: 1052px;
+  min-height: 595px;
+  padding: 120px 24px 0 24px;
 }
 
 .about_content {
-  display: flex;
-  gap: 72px;
-  max-width: 1140px;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  padding-left: 47px;
+  padding-top: 35px;
 }
 
 .about_image-sub { 
@@ -280,17 +293,20 @@ footer {
     align-items: flex-start;
     padding: 180px 50px 82px 50px;
     color: #333; 
+    text-decoration-color: black;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
 }
 
-.footer_left,
-.footer_center,
-.footer_right {
+.adress_left,
+.menu_center,
+.social_right {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.footer_adress-link {
+.adress-link {
     display: block;
     margin-left: 50px;
     color: #333;
@@ -298,28 +314,26 @@ footer {
     line-height: 24.3px;
 }
 
-.footer_link-list {
+.menu_link-list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.footer_link {
+.menu_link {
     display: block;
     color: #333;
     font-size: 18px;
     text-align: center;
 }
 
-.footer_social-list {
+.social_list {
     display: flex;
     gap: 48px;
     list-style: none;
 }
 
-.footer_logo-youtube,
-.footer_logo-vk,
-.footer_logo-pinterest {
+.social_item {
     width: 48px;
     height: 48px;
 }
