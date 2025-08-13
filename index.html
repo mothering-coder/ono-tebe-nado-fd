@@ -17,10 +17,10 @@
             <a class="header_link">главная</a>
           </li>
           <li class="header_link-list-item">
-            <a class="header_link" href="#0">посмотреть лоты</a>
+            <a class="header_link" href="#lot">посмотреть лоты</a>
           </li>
           <li class="header_link-list-item">
-            <a class="header_link" href="0">об аукционе</a>
+            <a class="header_link" href="#about">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -51,7 +51,7 @@
           </div>
         </div>
       </section>
-      <section class="lots">
+      <section id="lot" class="lots">
             <h2 class="lots_title">Лоты</h2>
             <ul class="lots_card-list">
               <li class="lots_card-list-item">
@@ -98,7 +98,7 @@
             alt="Логотип компании"
             />
           </div>
-        <div class="about_column">
+        <div id="about" class="about_column">
           <h2 class="about_title">Об аукционе</h2>
           <p class="about_text">
               Здесь вы не встретите очередное пафосное собрание невероятно
@@ -121,26 +121,31 @@
       </section>
     <footer>
       <adress class="footer_adress">
-        <a class="footer_adress-link" href="tel:+99995555555">*9 999 555 5555</a>
+        <div class="footer_left">
+          <a class="footer_adress-link" href="tel:+99995555555">*9 999 555 5555</a>
           <a class="footer_adress-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           <a class="footer_adress-link">наб.Принсенграхт 263-<br>265, Амстердам</a>
+        </div>
       </adress>
       <nav class="footer_menu">
+        <div class="footer_center">
         <ul class="footer_link-list">
           <li class="footer_link-list-item">
             <a class="footer_link">главная</a>
           </li>
           <li class="footer_link-list-item">
-            <a class="footer_link" href="#0">посмотреть лоты</a>
+            <a class="footer_link" href="#lot">посмотреть лоты</a>
           </li>
           <li class="footer_link-list-item">
-            <a class="footer_link" href="0">об аукционе</a>
+            <a class="footer_link" href="#about">об аукционе</a>
           </li>
         </ul>
+        </div>
       </nav>
       <social class="footer_social">
+        <div class="footer_right">
         <ul class="footer_social-list">
-          <li class="]footer_social-item">
+          <li class="footer_social-item">
             <a class="footer_link-social">
               <img
               class="footer_logo-youtube"
@@ -168,6 +173,7 @@
             </a>
           </li>
         </ul>
+        </div>
       </social>
     </footer>
   </body>

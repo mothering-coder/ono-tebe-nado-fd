@@ -36,3 +36,7 @@ img {
 button {
   font: inherit;
 }
+
+html {
+  scroll-behavior: smooth;
+}

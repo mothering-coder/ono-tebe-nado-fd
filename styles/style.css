@@ -211,7 +211,7 @@ button {
 }
 
 .about {
-    padding: 120px 24px 0 71px;
+    padding: 120px 24px 180px 71px;
 }
 
 .about_content {
@@ -261,42 +261,52 @@ button {
     line-height: 120%;
 }
 
-.footer {
-    display: grid;
-    grid-template-columns: 1fr min-content 1fr;
-    width: 100%;
-    align-items: center;
-    padding: 180px 50px 80px;
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 95px 50px 100px 0;
+    color: #333; 
 }
 
-.footer_adress {
+.footer_left,
+.footer_center,
+.footer_right {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    align-items: flex-start;
+}
+
+.footer_adress-link {
+    display: block;
     margin-left: 50px;
+    color: #333;
+    font-size: 18px;
+    line-height: 24.3px;
 }
 
 .footer_link-list {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
- .footer_social {
-    float: right;
-    width: 240px;
-    height: 48px;
+.footer_link {
+    display: block;
+    color: #333;
+    font-size: 18px;
+    text-align: center;
 }
 
 .footer_social-list {
     display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
     gap: 48px;
-    padding-right: 48px;
+    list-style: none;
+}
+
+.footer_logo-youtube,
+.footer_logo-vk,
+.footer_logo-pinterest {
+    width: 48px;
+    height: 48px;
 }
