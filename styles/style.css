@@ -108,7 +108,7 @@ span {
     font-family: 'Raleway', 'Arial', regular;
     text-transform: uppercase;
     line-height: 28px;
-    word-spacing: 17px;
+    word-spacing: 18px;
     font-size: 22px;
     padding-bottom: 50px;
     padding-right: 50px;
@@ -229,14 +229,14 @@ button {
 .about {
   width: 1052px;
   min-height: 595px;
-  padding: 90px 24px 0 24px;
+  padding: 70px 24px 0 24px;
 }
 
 .about_content {
   display: grid;
   grid-template-columns: 334px 1fr;
-  padding-left: 47px;
   padding-top: 35px;
+  padding-left: 47px;
 }
 
 .about_image-sub { 
@@ -262,11 +262,10 @@ button {
 
 .about_text-two {
     min-width: 690px;
-    line-height: 120%;
 }
 
 .about_title {
-    margin: 101px 0 100px;
+    margin: 100px 0 100px;
     font-weight: 700;
     font-size: 40px;
     line-height: 135%;
@@ -276,7 +275,7 @@ button {
 .about_text {
     margin: 0 0 24px;
     font-size: 20px;
-    line-height: 120%;
+
 }
 
 footer {
