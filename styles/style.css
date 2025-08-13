@@ -90,12 +90,14 @@ span {
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
+    padding-left: 37px;
 }
 
 .third-line {
     position: relative;
     justify-content: end;
     align-items: end;
+    padding-left: 1030px;
 }
 
 .description {
