@@ -67,7 +67,7 @@ header {
     z-index: 0;
 }
 
-h1 {
+.cover_title {
     color: white;
     font-size: 100px;
     font-family: 'Raleway', 'Arial', sans-serif;
@@ -81,11 +81,8 @@ h1 {
     padding-right: 50px;
 }
 
-span {
-    display: flex;
-}
-
 .head_line {
+    display: flex;
     position: relative;
     align-items: flex-start;
     justify-content: flex-start;
@@ -93,6 +90,7 @@ span {
 }
 
 .center_line {
+    display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -101,6 +99,7 @@ span {
 }
 
 .down_line {
+    display: flex;
     position: relative;
     justify-content: end;
     align-items: end;
@@ -272,7 +271,7 @@ button {
     margin-left: -20px;
 }
 
-.about_text-low {
+.about_text-paragraph {
     min-width: 690px;
 }
 
