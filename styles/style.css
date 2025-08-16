@@ -55,7 +55,7 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-height: 757px;
+    height: 757px;
 }
 
 .cover_title {
@@ -78,15 +78,17 @@ header {
 
 .it {
     text-align: start;
+    padding-left: 20px;
 }
 
 .you {
     text-align: center;
+    padding-left: 30px;
 }
 
 .need {
     text-align: end;
-    padding-left: 610px;
+    padding-left: 633px;
 }
 
 .description {
@@ -106,7 +108,6 @@ header {
 }
 
 button {
-    position: relative;
     font-family: 'Raleway', 'Arial', regular;
     font-size: 22px;
     text-transform: uppercase;
@@ -117,7 +118,6 @@ button {
     padding-bottom: 11px;
     padding-left: 31px;
     padding-right: 32px;
-    margin-top: -15px;
 }
 
 .overlay {
@@ -224,7 +224,7 @@ button {
 
 .about {
   width: 1052px;
-  padding: 50px 24px 0 24px;
+  padding: 100px 24px 0 24px;
 }
 
 .about_content {
