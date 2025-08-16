@@ -73,17 +73,18 @@ header {
 .cover_text {
     display: block;
     position: relative;
-    padding-bottom: 20px;
 }
 
 .it {
     text-align: start;
     padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 .you {
     text-align: center;
     padding-left: 30px;
+    padding-bottom: 20px;
 }
 
 .need {
@@ -224,7 +225,7 @@ button {
 
 .about {
   width: 1052px;
-  padding: 100px 24px 0 24px;
+  padding: 120px 24px 0 24px;
 }
 
 .about_content {
