@@ -94,6 +94,7 @@ header {
 
 .description {
     display: flex;
+    align-items: center;
     position: relative;
     gap: 107px;
     color: white;
@@ -225,12 +226,13 @@ button {
 
 .about {
   width: 1052px;
-  padding: 120px 24px 0 24px;
+  padding: 110px 24px 0 24px;
 }
 
 .about_content {
   display: grid;
   grid-template-columns: 334px 1fr;
+  grid-column-gap: 0px;
   padding-top: 35px;
   padding-left: 47px;
 }
@@ -254,7 +256,6 @@ button {
 .about_column {
     max-width: 665px;
     line-height: 24px;
-    margin-left: -20px;
 }
 
 .about_text-paragraph {
