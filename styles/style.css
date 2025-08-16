@@ -103,7 +103,7 @@ header {
     line-height: 28px;
     word-spacing: 18px;
     font-size: 22px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 115px;
@@ -132,7 +132,7 @@ button {
 }
 
 .lots {
-    padding: 180px 24px 0;
+    padding: 175px 24px 0;
 }
 
 .lots_title {
@@ -237,7 +237,7 @@ button {
   padding-left: 47px;
 }
 
-.about_image-sub { 
+.about_image-sub {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -254,12 +254,14 @@ button {
 }
 
 .about_column {
-    max-width: 665px;
+    max-width: 693px;
     line-height: 24px;
+    margin-left: -20px;
 }
 
 .about_text-paragraph {
-    min-width: 690px;
+    min-width: 693px;
+    padding-right: 24px;
 }
 
 .about_title {
@@ -273,7 +275,6 @@ button {
 .about_text {
     margin: 0 0 24px;
     font-size: 20px;
-
 }
 
 footer {
@@ -282,7 +283,7 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     padding: 155px 50px 80px 0px;
-    color: #333; 
+    color: #333;
     text-decoration-color: black;
     text-decoration-thickness: 1px;
     text-underline-offset: 4px;
