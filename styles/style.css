@@ -58,15 +58,6 @@ header {
     min-height: 757px;
 }
 
-.overlay {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 100%;
-    height: 100%;
-    inset: 0;
-    z-index: 0;
-}
-
 .cover_title {
     color: white;
     font-size: 100px;
@@ -77,33 +68,25 @@ header {
     z-index: 1;
     letter-spacing: 30px;
     padding-top: 165px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
-.head_line {
-    display: flex;
+.cover_text {
+    display: block;
     position: relative;
-    align-items: flex-start;
-    justify-content: flex-start;
     padding-bottom: 20px;
 }
 
-.center_line {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 20px;
-    padding-left: 37px;
+.it {
+    text-align: start;
 }
 
-.down_line {
-    display: flex;
-    position: relative;
-    justify-content: end;
-    align-items: end;
-    padding-left: 1030px;
+.you {
+    text-align: center;
+}
+
+.need {
+    text-align: end;
+    padding-left: 610px;
 }
 
 .description {
@@ -137,17 +120,20 @@ button {
     margin-top: -15px;
 }
 
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    z-index: 0;
+}
+
 .lots {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     padding: 180px 24px 0;
 }
 
 .lots_title {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
     font-size: 40px;
     text-transform: uppercase;
     margin-bottom: 25px;
@@ -183,6 +169,7 @@ button {
     width: 100%;
     max-width: 334px;
     height: 100%;
+    bottom: 30px;
 }
 
 
@@ -233,12 +220,10 @@ button {
   text-underline-offset: 4px;
   text-decoration: underline;
   padding-left: 40px;
-  margin:  30px 0 64px;
 }
 
 .about {
   width: 1052px;
-  min-height: 595px;
   padding: 50px 24px 0 24px;
 }
 
@@ -302,7 +287,6 @@ footer {
 }
 
 .adress-link {
-    display: flex;
     align-items: start;
     margin-left: 50px;
     justify-content: start;
@@ -330,7 +314,7 @@ footer {
     list-style: none;
 }
 
-.social_item {
+.social_icon {
     width: 48px;
     height: 48px;
 }
