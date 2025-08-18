@@ -29,8 +29,9 @@ header {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    font-family: 'Raleway', 'Arial', regular;
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-size: 18px;
+    font-style: normal;
 }
 
 .adress {
@@ -173,7 +174,6 @@ button {
     width: 100%;
     max-width: 334px;
     height: 100%;
-    bottom: 30px;
 }
 
 
@@ -219,11 +219,13 @@ button {
 }
 
 .lots_look-more-link {
+  position: relative;
   font-size: 20px;
   color: #000;
   text-underline-offset: 4px;
   text-decoration: underline;
   padding-left: 40px;
+  top: 30px;
 }
 
 .about {
@@ -255,12 +257,10 @@ button {
 }
 
 .about_column {
-    max-width: 693px;
     line-height: 24px;
 }
 
 .about_text-paragraph {
-    min-width: 693px;
     padding-right: 24px;
 }
 
@@ -292,7 +292,6 @@ footer {
 .adress-link {
     margin-left: 50px;
     justify-content: start;
-    font-size: 18px;
 }
 
 .menu_link-list {
@@ -303,7 +302,6 @@ footer {
 
 .menu_link {
     display: block;
-    color: #333;
     font-size: 18px;
     text-align: center;
 }
