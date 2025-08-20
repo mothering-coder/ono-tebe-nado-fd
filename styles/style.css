@@ -235,7 +235,7 @@ button {
 
 .about_content {
   display: grid;
-  grid-template-columns: 314px 1fr;
+  grid-template-columns: 313px 1fr;
   padding-top: 35px;
   padding-left: 47px;
 }
@@ -260,10 +260,6 @@ button {
     line-height: 24px;
 }
 
-.about_text-paragraph {
-    padding-right: 24px;
-}
-
 .about_title {
     margin: 100px 0 100px;
     font-weight: 700;
@@ -282,7 +278,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 140px 50px 80px 0px;
+    padding: 135px 50px 80px 0px;
     color: #333;
     text-decoration-color: black;
     text-decoration-thickness: 1px;
