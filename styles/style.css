@@ -230,7 +230,7 @@ button {
 
 .about {
   width: 1052px;
-  padding: 145px 24px 0 24px;
+  padding: 145px 24px 0 0;
 }
 
 .about_content {
@@ -273,7 +273,7 @@ button {
 }
 
 .about_text {
-    margin: 0 0 24px;
+    margin: 0 0 23px;
     font-size: 20px;
 }
 
